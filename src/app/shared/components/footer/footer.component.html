@@ -1,0 +1,64 @@
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="gray-text">
+                                Address
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-container-col gray-text">
+                                <fa-icon [icon]="icons.address"></fa-icon>
+                            </td>
+                            <td class="gray-text">{{gc.ADDRESS}}</td>
+                        </tr>
+                        <tr>
+                            <td class="icon-container-col gray-text">
+                                <fa-icon [icon]="icons.country"></fa-icon>
+                            </td>
+                            <td class="gray-text">{{gc.COUNTRY}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-6">
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td class="gray-text">
+                                Contact
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-container-col gray-text">
+                                <fa-icon [icon]="icons.email"></fa-icon>
+                            </td>
+                            <td class="gray-text">
+                                <a [href]="'mailto:'+ gc.EMAIL">{{gc.EMAIL}}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-container-col gray-text">
+                                <fa-icon [icon]="icons.twitter"></fa-icon>
+                            </td>
+                            <td class="gray-text">
+                                <a [href]="gc.TWITTER">Twitter</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="icon-container-col gray-text">
+                                <fa-icon [icon]="icons.linkedIn"></fa-icon>
+                            </td>
+                            <td class="gray-text">
+                                <a [href]="gc.LINKEDIN">LinkedIn</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

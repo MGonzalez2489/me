@@ -1,0 +1,9 @@
+@import "../../../../../theme/color";
+
+.banner {
+    background-color: $primary;
+    height: calc(100vh - 50%);
+    display: flex;
+    align-items: center;
+    color: $white;
+}

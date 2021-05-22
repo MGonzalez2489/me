@@ -1,0 +1,13 @@
+@import "../../../../../theme/color";
+
+.icon{
+    color: $primary;
+    font-size: 2rem;
+}
+.card-info{
+    height: 350px;
+
+    .card-body-text{
+        min-height: 200px;
+    }
+}
