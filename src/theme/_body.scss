@@ -1,6 +1,7 @@
 @import "./color";
 
-body{
+body {
     background-color: $bg-body !important;
     height: 100vh !important;
+    color: $color-text !important;
 }

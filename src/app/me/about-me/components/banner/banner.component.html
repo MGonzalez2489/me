@@ -2,12 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-4 text-center">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsmTSO8AUBRn1D-9hiSMles-PJRO9Ci5_5w&usqp=CAU"
-                    [alt]="gc.SHORT_NAME">
+                <img [src]="gc.AVATAR || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsmTSO8AUBRn1D-9hiSMles-PJRO9Ci5_5w&usqp=CAU'"
+                    [alt]="gc.SHORT_NAME" class="image-fluid rounded-circle">
+                <p class="m-3">{{gc.TITLE}}</p>
+
             </div>
             <div class="col-sm-12 col-md-8">
-                <p>{{gc.TITLE}}</p>
-                <h1>{{gc.FULL_NAME}}</h1>
+                <h1 class="text-start">{{gc.FULL_NAME}}</h1>
+                <div class="d-flex flex-column align-items-start mt-5">
+                    <a href="#whoAmISection" class="btn btn-link text-white">Who am I?</a>
+                    <a href="#whatIDoSection" class="btn btn-link text-white">What I Do?</a>
+                </div>
             </div>
         </div>
     </div>
