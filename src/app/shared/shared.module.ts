@@ -4,11 +4,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule } from '@angular/router';
+import { StopPropagationDirective } from './directives/stop-propagation.directive';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent, FooterComponent],
+  declarations: [NavbarComponent, FooterComponent, StopPropagationDirective],
   imports: [
     CommonModule,
     FontAwesomeModule,
@@ -17,7 +18,8 @@ import { RouterModule } from '@angular/router';
   exports: [
     NavbarComponent,
     FooterComponent,
-    FontAwesomeModule
+    FontAwesomeModule,
+    StopPropagationDirective
   ]
 })
 export class SharedModule { }
