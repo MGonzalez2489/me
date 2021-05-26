@@ -1,0 +1,17 @@
+@import "./../../../../theme/color";
+.navbar-inverse {
+    background-color: $white !important;
+    .navbar-brand,
+    .nav-link {
+        color: $primary;
+    }
+
+    .btn-menu {
+        background-color: $white;
+        color: $primary;
+        border: none;
+        .navbar-toggler-icon {
+            color: $primary;
+        }
+    }
+}
