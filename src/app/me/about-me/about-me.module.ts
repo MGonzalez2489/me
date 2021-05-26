@@ -7,14 +7,15 @@ import { BannerComponent } from './components/banner/banner.component';
 import { WhoAmIComponent } from './components/who-am-i/who-am-i.component';
 import { WhatIDoComponent } from './components/what-ido/what-ido.component';
 import { SharedModule } from 'src/app/shared/shared.module';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AboutMeComponent, BannerComponent, WhoAmIComponent, WhatIDoComponent],
   imports: [
     CommonModule,
     AboutMeRoutingModule,
-    SharedModule
+    SharedModule,
+    FontAwesomeModule
   ]
 })
 export class AboutMeModule { }

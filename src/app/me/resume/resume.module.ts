@@ -9,14 +9,15 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { BannerComponent } from './component/banner/banner.component';
 import { ExpSkillsComponent } from './component/exp-skills/exp-skills.component';
 import { CurrentLearningComponent } from './component/current-learning/current-learning.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [ResumeComponent,ExpEducationComponent, ExpJobsComponent, BannerComponent, ExpSkillsComponent, CurrentLearningComponent],
+  declarations: [ResumeComponent, ExpEducationComponent, ExpJobsComponent, BannerComponent, ExpSkillsComponent, CurrentLearningComponent],
   imports: [
     CommonModule,
     ResumeRoutingModule,
-    SharedModule
+    SharedModule,
+    FontAwesomeModule
   ]
 })
 export class ResumeModule { }

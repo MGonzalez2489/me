@@ -17,7 +17,6 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
   exports: [
     NavbarComponent,
     FooterComponent,
-    FontAwesomeModule,
     StopPropagationDirective,
     ScrollTopComponent
   ]
