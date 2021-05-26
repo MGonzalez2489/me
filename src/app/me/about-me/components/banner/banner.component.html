@@ -4,13 +4,12 @@
             <div class="col-sm-12 col-md-4 text-center">
                 <img [src]="gc.AVATAR || 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsmTSO8AUBRn1D-9hiSMles-PJRO9Ci5_5w&usqp=CAU'"
                     [alt]="gc.SHORT_NAME" class="image-fluid rounded-circle avatar">
-                <p class="m-3">{{gc.TITLE}}</p>
+
             </div>
-            <div class="col-sm-12 col-md-8">
-                <h1 class="text-start title">{{gc.FULL_NAME}}</h1>
-                <div class="menu mt-5">
-                    <a href="#whoAmISection" class="btn btn-link text-white">Who am I?</a>
-                    <a href="#whatIDoSection" class="btn btn-link text-white">What I Do?</a>
+            <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                <div>
+                    <h1 class="text-start title">{{gc.FULL_NAME}}</h1>
+                    <p class="title">{{gc.TITLE}}</p>
                 </div>
             </div>
         </div>
