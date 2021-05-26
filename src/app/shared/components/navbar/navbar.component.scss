@@ -5,6 +5,11 @@
     .nav-link {
         color: $primary;
     }
+    .active {
+        background-color: $primary;
+        color: $white;
+        border-radius: 40px;
+    }
 
     .btn-menu {
         background-color: $white;
