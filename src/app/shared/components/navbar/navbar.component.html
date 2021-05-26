@@ -1,8 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top navbar-inverse">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#" appStopPropagation [routerLink]="['/']" routerLinkActive="router-link-active" >{{gc.SHORT_NAME}}</a>
-        <button type="button" class="btn btn-primary btn-menu navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#" appStopPropagation [routerLink]="['/']"
+            routerLinkActive="router-link-active">{{gc.SHORT_NAME}}</a>
+        <button type="button" class="btn btn-primary btn-menu navbar-toggler" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <fa-icon [icon]="icons.menu"></fa-icon>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show': toggleOpen}">
@@ -14,6 +16,10 @@
                 <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a class="nav-link" aria-current="page" href="#" [routerLink]="['/resume']"
                         [routerLinkActiveOptions]={exact:true} routerLinkActive="active">Resume</a>
+                </li>
+                <li class="nav-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                    <a class="nav-link" aria-current="page" href="#" [routerLink]="['/contact']"
+                        [routerLinkActiveOptions]={exact:true} routerLinkActive="active">Contact</a>
                 </li>
             </ul>
         </div>
