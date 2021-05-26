@@ -8,10 +8,11 @@ import { ExpEducationComponent } from './component/exp-education/exp-education.c
 import { SharedModule } from 'src/app/shared/shared.module';
 import { BannerComponent } from './component/banner/banner.component';
 import { ExpSkillsComponent } from './component/exp-skills/exp-skills.component';
+import { CurrentLearningComponent } from './component/current-learning/current-learning.component';
 
 
 @NgModule({
-  declarations: [ResumeComponent,ExpEducationComponent, ExpJobsComponent, BannerComponent, ExpSkillsComponent],
+  declarations: [ResumeComponent,ExpEducationComponent, ExpJobsComponent, BannerComponent, ExpSkillsComponent, CurrentLearningComponent],
   imports: [
     CommonModule,
     ResumeRoutingModule,
