@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1621784111978,
+  "timestamp": 1621989059820,
   "index": "https://mgonzalez2489.github.io/me/index.html",
   "assetGroups": [
     {
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://mgonzalez2489.github.io/me/4.1ada7480c6c827b9aa93.js",
-        "https://mgonzalez2489.github.io/me/5.0063618643ea5d16161f.js",
+        "https://mgonzalez2489.github.io/me/4.659e0c022654c8fc7a2c.js",
+        "https://mgonzalez2489.github.io/me/5.60638e72b4c12b34affe.js",
         "https://mgonzalez2489.github.io/me/favicon.ico",
         "https://mgonzalez2489.github.io/me/index.html",
-        "https://mgonzalez2489.github.io/me/main.ddb00abd4262df14f34a.js",
+        "https://mgonzalez2489.github.io/me/main.2021ca72e59ea0b2fbf5.js",
         "https://mgonzalez2489.github.io/me/manifest.webmanifest",
         "https://mgonzalez2489.github.io/me/polyfills.8c151b8375e767ff858f.js",
-        "https://mgonzalez2489.github.io/me/runtime.51724f73f96811eb08f7.js",
+        "https://mgonzalez2489.github.io/me/runtime.547be0a51a5bb4233fb5.js",
         "https://mgonzalez2489.github.io/me/scripts.206995907876a2c78426.js",
-        "https://mgonzalez2489.github.io/me/styles.983711d79fb24c6c20c0.css"
+        "https://mgonzalez2489.github.io/me/styles.93acd4704fa71131565a.css"
       ],
       "patterns": []
     },
@@ -51,8 +51,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://mgonzalez2489.github.io/me/4.1ada7480c6c827b9aa93.js": "4ff53623b811de1f2b9b7e9b97b519a82066b9e6",
-    "https://mgonzalez2489.github.io/me/5.0063618643ea5d16161f.js": "03379dd9509873a957d2df34436a8870fe45542c",
+    "https://mgonzalez2489.github.io/me/4.659e0c022654c8fc7a2c.js": "22278a525d6ed43d990d13283c98697e021fa6a5",
+    "https://mgonzalez2489.github.io/me/5.60638e72b4c12b34affe.js": "b414f30044dcee708e24354d9fa26a95f417ba21",
     "https://mgonzalez2489.github.io/me/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://mgonzalez2489.github.io/me/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://mgonzalez2489.github.io/me/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -67,13 +67,13 @@
     "https://mgonzalez2489.github.io/me/assets/images/study1.svg": "61b6f7b1fb19ef459cdbddf1eb3c1846a2b25702",
     "https://mgonzalez2489.github.io/me/assets/images/study2.svg": "418d6dce3eacf6b751e277c39f048372a1611478",
     "https://mgonzalez2489.github.io/me/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://mgonzalez2489.github.io/me/index.html": "2b3bd52e232d827b1313708ec1f45b8ba1689c63",
-    "https://mgonzalez2489.github.io/me/main.ddb00abd4262df14f34a.js": "26f7f6cf8cec2772dd3083ebc82b80afcf35c3a5",
-    "https://mgonzalez2489.github.io/me/manifest.webmanifest": "ffd09a95c6914660c167f0c40fc749fc164c6b7f",
+    "https://mgonzalez2489.github.io/me/index.html": "92af744982391cbb5e60559ee9aa00abbf307073",
+    "https://mgonzalez2489.github.io/me/main.2021ca72e59ea0b2fbf5.js": "fb30a4675cb42bb371fef1b6ae5eb46676488738",
+    "https://mgonzalez2489.github.io/me/manifest.webmanifest": "97d5f39f1f3a3d33f0334d4070922d35ec93c189",
     "https://mgonzalez2489.github.io/me/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://mgonzalez2489.github.io/me/runtime.51724f73f96811eb08f7.js": "49418e7eee1a0c7e7642a7edcc9f445057722e22",
+    "https://mgonzalez2489.github.io/me/runtime.547be0a51a5bb4233fb5.js": "40d9855eadf4ddf720d6dd899dbb1f51c7bbde5e",
     "https://mgonzalez2489.github.io/me/scripts.206995907876a2c78426.js": "1470e2e12d81c6474358a2499ac0daef514d2ac8",
-    "https://mgonzalez2489.github.io/me/styles.983711d79fb24c6c20c0.css": "5b44cec35d82c04456d4dcd8c8d8561100e7d666"
+    "https://mgonzalez2489.github.io/me/styles.93acd4704fa71131565a.css": "ca0573a3992052497e3862ca83bbbeec992d2469"
   },
   "navigationUrls": [
     {
