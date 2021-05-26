@@ -1,14 +1,17 @@
 @import "./../../../../theme/color";
 .navbar-inverse {
     background-color: $white !important;
-    .navbar-brand,
-    .nav-link {
+    .navbar-brand {
         color: $primary;
     }
+
+    .nav-link {
+        color: rgb(201, 201, 201);
+        padding-left: 5px;
+    }
     .active {
-        background-color: $primary;
-        color: $white;
-        border-radius: 40px;
+        //background-color: $primary;
+        color: $primary;
     }
 
     .btn-menu {

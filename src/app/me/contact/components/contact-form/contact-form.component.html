@@ -15,16 +15,18 @@
                                 <form class="contact-form" action="https://formspree.io/f/xleabgen" method="POST">
                                     <div class="mb-3 text-start">
                                         <label for="email" class="form-label">Email</label>
-                                        <input class="form-control" id="email" aria-describedby="emailHelp" type="email"
+                                        <input class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email address" type="email"
                                             name="_replyto" required>
                                     </div>
                                     <div class="mb-3 text-start">
                                         <label for="message" class="form-label">Message</label>
-                                        <textarea type="text" class="form-control" id="message" name="message"
+                                        <textarea type="text" class="form-control" id="message" name="message" rows="8" placeholder="Tell me how can I help"
                                             required></textarea>
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary">Send</button>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
