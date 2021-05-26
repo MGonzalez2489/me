@@ -6,8 +6,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RouterModule } from '@angular/router';
 import { StopPropagationDirective } from './directives/stop-propagation.directive';
 
-
-
 @NgModule({
   declarations: [NavbarComponent, FooterComponent, StopPropagationDirective],
   imports: [

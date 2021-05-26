@@ -8,9 +8,13 @@ import { GlobalConstants } from 'src/app/common/global-constants';
 })
 export class NavbarComponent implements OnInit {
   gc = GlobalConstants;
+  toggleOpen: boolean;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  toggleMenu() {
+    this.toggleOpen = !this.toggleOpen;
   }
 
 }

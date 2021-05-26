@@ -6,10 +6,12 @@ import { ResumeComponent } from './resume/resume.component';
 import { ExpJobsComponent } from './component/exp-jobs/exp-jobs.component';
 import { ExpEducationComponent } from './component/exp-education/exp-education.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { BannerComponent } from './component/banner/banner.component';
+import { ExpSkillsComponent } from './component/exp-skills/exp-skills.component';
 
 
 @NgModule({
-  declarations: [ResumeComponent,ExpEducationComponent, ExpJobsComponent],
+  declarations: [ResumeComponent,ExpEducationComponent, ExpJobsComponent, BannerComponent, ExpSkillsComponent],
   imports: [
     CommonModule,
     ResumeRoutingModule,
