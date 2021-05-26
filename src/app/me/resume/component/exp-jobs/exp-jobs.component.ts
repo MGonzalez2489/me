@@ -42,7 +42,7 @@ export class ExpJobsComponent implements OnInit {
       period: 'Jan 2017 - May 2019',
     },
     {
-      title: 'Lead Software Enginee',
+      title: 'Lead Software Engineer',
       icon: this.icons.mobile,
       company: 'PK',
       description: 'Designed, supported, and improved a multi-user application hosted in Azure' +
