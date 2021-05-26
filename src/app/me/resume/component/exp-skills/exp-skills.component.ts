@@ -36,7 +36,7 @@ export class ExpSkillsComponent{
       level: 50
     },
     {
-      name: 'EF',
+      name: 'Entity Framework',
       level: 50
     },
     {
@@ -46,11 +46,7 @@ export class ExpSkillsComponent{
     {
       name: 'WPF',
       level: 50
-    },
-    {
-      name: 'WCF',
-      level: 50
-    },
+    }
   ]
   dbSkills: Array<Skill> = [
     {
