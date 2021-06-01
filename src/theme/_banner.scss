@@ -7,6 +7,10 @@
     display: flex;
     align-items: center;
     color: $white;
+
+    @media (max-width: 576px) {
+        height: 350px;
+    }
     .menu {
         //d-flex flex-column align-items-start
         display: flex;

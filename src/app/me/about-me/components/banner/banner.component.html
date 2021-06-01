@@ -7,10 +7,10 @@
 
             </div>
             <div class="col-sm-12 col-md-8 d-flex align-items-center">
-                <div>
+                <div class="d-flex flex-column">
                     <h1 class="text-start title">{{gc.FULL_NAME}}</h1>
-                    <p class="title">{{gc.TITLE}}</p>
-                    <a href="/src/assets/documents/ManuelGonzalezHernandez.pdf" download class="btn btn-outline-primary btn-cv rounded-pill">Download CV</a>
+                    <h5 class="title">{{gc.TITLE}}</h5>
+                    <a [href]="gc.RESUME" download class="btn btn-outline-primary btn-cv rounded-pill">Download CV</a>
                 </div>
             </div>
         </div>

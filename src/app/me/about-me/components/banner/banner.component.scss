@@ -4,4 +4,8 @@
     background-color: $white;
     color: $primary;
     border-radius: 100%;
+
+    &:hover {
+        font-weight: 600;
+    }
 }
