@@ -8,4 +8,5 @@ export class GlobalConstants {
     public static TWITTER = 'https://twitter.com/manuelglz89';
     public static LINKEDIN = 'https://linkedin.com/in/manuelagh89';
     public static AVATAR = 'https://raw.githubusercontent.com/MGonzalez2489/me/main/src/assets/images/mGonzalez.png';
+    public static RESME = '/assets/documents/ManuelGonzalezHernandez.pdf'
 }
