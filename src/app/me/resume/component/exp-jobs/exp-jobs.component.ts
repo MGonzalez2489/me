@@ -44,7 +44,7 @@ export class ExpJobsComponent implements OnInit {
     {
       title: 'Lead Software Engineer',
       icon: this.icons.mobile,
-      company: 'PK',
+      company: 'PK Global',
       description: 'Designed, supported, and improved a multi-user application hosted in Azure' +
         'Cloud using Angular, NodeJs + SailsJs, and PostgreSQL.',
       period: 'May 2019',

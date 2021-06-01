@@ -7,5 +7,5 @@ export class GlobalConstants {
     public static EMAIL = 'manuel_agh@hotmail.com';
     public static TWITTER = 'https://twitter.com/manuelglz89';
     public static LINKEDIN = 'https://linkedin.com/in/manuelagh89';
-    public static AVATAR = '';
+    public static AVATAR = '/assets/images/mGonzalez.png';
 }
